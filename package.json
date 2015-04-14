@@ -1,0 +1,21 @@
+{
+  "name": "delta-bot",
+  "version": "0.1.0-snapshot",
+  "description": "Send a chat message when something changes",
+  "main": "out/release/delta_bot.js",
+  "dependencies": {
+    "node-stringprep": "^0.7.0",
+    "node-xmpp-client": "^1.0.0-alpha20",
+    "node-xmpp-core": "^1.0.0-alpha14",
+    "source-map-support": "^0.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xmpp"
+  ],
+  "author": "jeremyrsellars@gmail.com",
+  "license": "ISC"
+}
