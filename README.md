@@ -7,10 +7,10 @@ This bot runs on Node.js and currently connects to hipchat (and possibly other J
 ### HipChat
 For your HipChat jabber id, go here: https://hipchat.com/account/xmpp
 
-`node run.js pwd "<your pwd here>" jid XXXXXX_XXXXXX@chat.hipchat.com cmd "sqlcmd -E -i myquery.sql"
+    node run.js pwd "<your pwd here>" jid XXXXXX_XXXXXX@chat.hipchat.com cmd "sqlcmd -E -i myquery.sql"
 
 ## Development
-This bot is written in ClojureScript for Node.js.
+This bot is written in ClojureScript for Node.js.  Feel free to make pull requests, issues, feature requests, etc..  This is a type project, at the moment, but let me know if you have interest in making this big.
 
 ## License
 [ISC](LICENSE)
