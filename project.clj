@@ -20,7 +20,7 @@
   :cljsbuild {
     :builds [{:id "delta-bot"
               :source-paths ["src"]
-              :notify-command ["node" "run.js" "cmd" "time.cmd" "jid" ~(System/getenv "JABBER_ID") "pwd" ~(System/getenv "JABBER_PWD") "interval-seconds" "1" "stop-after-seconds" "3"]
+              :notify-command ["node" "run.js" "cmd" "time.cmd" "jid" ~(System/getenv "JABBER_ID") "pwd" ~(System/getenv "JABBER_PWD") "server" ~(System/getenv "JABBER_SERVER") "interval-seconds" "1" "stop-after-seconds" "3"]
               :compiler {
                 :output-to "out/delta_bot.js"
                 :output-dir "out"
